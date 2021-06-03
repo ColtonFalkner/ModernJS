@@ -63,3 +63,20 @@ console.log(stateClone)
 state.user.loggedIn = false
 console.log(stateDeepClone)
 console.log(state)
+
+class Person {
+  greeting = 'Hey'
+  constructor(name) {
+    this.name = name
+    console.log(`${this.greeting}, ${this.name}`)
+  }
+}
+
+const colton = new Person('Colton')
+
+console.log(cart.find((el) => el.quantity >= 2))
+Promise.resolve('Test').then((x) => console.log(x))
+
+import 'core-js/stable'
+//Polyfilling async functions
+import 'regenerator-runtime/runtime'

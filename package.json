@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/ColtonFalkner/ModernJS#readme",
   "dependencies": {
+    "core-js": "^3.13.0",
     "leaflet": "^1.7.1",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
     "parcel": "^2.0.0-beta.2"
